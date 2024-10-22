@@ -18,8 +18,6 @@
         padding: 0px;
         background: url('img/bg.jpg');
         background-size: 1500px 950px;
-
-
     }
 
     .left {
@@ -27,14 +25,12 @@
         left: 60px;
         top: 20px;
         display: inline-block;
-        /* border: 2px solid red; */
     }
 
     .mid {
         display: block;
         width: 50%;
         margin: 29px auto;
-        /* border: 2px solid green; */
     }
 
     .right {
@@ -42,12 +38,10 @@
         right: 34px;
         top: 43px;
         display: inline-block;
-        /* border: 2px solid yellow; */
     }
 
     .navbar {
         display: inline-block;
-
     }
 
     .navbar li {
@@ -56,20 +50,15 @@
     }
 
     .navbar li a {
-
         color: white;
         text-decoration: none;
         padding: 5px 7px;
-
     }
 
     .navbar li a:hover,
     .navbar li a.active {
-
         color: grey;
         text-decoration: underline;
-
-
     }
 
     .left img {
@@ -130,30 +119,51 @@
         width: 74%;
         margin: 20px auto;
     }
+
+    /* Footer Styling */
+    .footer {
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .footer .social-icons {
+        margin-top: 10px;
+    }
+
+    .footer .social-icons a {
+        color: white;
+        text-decoration: none;
+        margin: 0 10px;
+        font-size: 24px;
+    }
+
+    .footer .social-icons a:hover {
+        color: grey;
+    }
 </style>
 
 <body>
     <header class="header">
-        <!-- Left Box for logo -->
         <div class="left">
             <img src="img/download.jpg" alt="">
             <div>Harry Fitness</div>
         </div>
-        <!-- mid box for navigation -->
         <div class="mid">
             <ul class="navbar">
-
                 <li><a href="#" class="active">Home</a></li>
                 <li><a href="#">About Us</a></li>
                 <li><a href="#">Fitness Calculator</a></li>
                 <li><a href="#">Contact Us</a></li>
             </ul>
         </div>
-        <!-- Right box for buttons -->
         <div class="right">
             <button class="btn">Call Us Now</button>
             <button class="btn">Email Us</button>
-
         </div>
     </header>
     <div class="container">
@@ -180,6 +190,17 @@
             <button class="btn">Submit</button>
         </form>
     </div>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <p>&copy; 2024 Harry Fitness. All rights reserved.</p>
+        <div>Contact Us: +91 7234567890 | Email: info@harryfitness.com</div>
+        <div class="social-icons">
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+        </div>
+    </footer>
 </body>
 
 </html>
